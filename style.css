@@ -1,0 +1,198 @@
+*{
+     margin:0;
+      padding:0;
+    }
+    #service{
+        background-color: #f5f5f5;
+    }
+    main{
+      width: 100%;
+      position: relative;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+    }
+    .logo{
+      position:absolute;
+        left:2rem;
+        font-family:monospace;
+        font-size: 2rem;
+      }
+    nav{
+      width:100%;
+      height: 5rem;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      background-color: orange;
+      position: fixed;
+      z-index: 477777;
+      
+    }
+    .search{
+    height:2.5rem;
+    width:25rem;
+    padding-left:1rem;
+    border: none;
+    border-radius: 0.5rem;
+    }
+    #service{
+    height:auto;
+    width:100%;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+    }
+    .product{
+    height:15rem;
+    width:12rem;
+    display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+    border-radius:0.5rem;
+     margin:0.6rem 1rem;
+      transition:all 0.5s;
+      background-color:white;
+      transform: translateY(10rem);
+      opacity: 0;
+      transition: all 1s;
+      
+    }
+    .animate{
+      transform: translateY(0rem);
+      opacity: 1;
+    }
+    .product:hover{
+      transform:scale(1.1);
+    }
+    .pimg{
+    height:8rem;
+      width:8rem;
+      margin:1rem;
+      border-radius:0.5rem;
+    }
+    .pname{
+      height:2rem;
+      overflow: hidden;
+      text-align:center;
+    width:12rem;}
+    
+    .price{
+      color:orange;
+    }
+    .result
+  {
+    height: 21rem;
+  overflow: hidden;
+    width: 25rem;
+position: absolute;
+top: 6rem;
+    background-color: white;
+    display: none;
+    box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 16px 0px rgba(0,0,0,0.75);
+z-index: 2000000;
+  }
+  .result li{
+    list-style: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    height: 2rem;
+  }
+  .result > :first-child{
+    background-color: #777777;
+  }
+  .result li:hover{
+    background-color: #777777;
+  }
+  .detail{
+    height: 100vh;
+    width: 100%;
+    background-color:#f5f5f5;
+    position: fixed;
+    z-index: 2;
+    top: 0rem;
+    display: flex;
+    justify-content: center;
+
+  }
+  .detailchild{
+    position: absolute;
+    top: 7rem;
+    background-color: white;
+    height: 30rem;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .dimg{
+    height: 20rem;
+    width: 50%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+  .descrip{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dname{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 8rem;
+    padding: 1rem;
+    }
+  .quantity{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+    .dprice{
+      font-size: 2rem;
+      text-align: center;
+    color: #D0611E;
+      width: 100%;
+      height: 2rem;
+    }
+    .buy,.add{
+      width: 40%;
+      background-color: #26ABD4;
+      border: none;
+      color: white;
+      margin: 1rem;
+      height: 2.5rem;
+    }
+    .add{
+      background-color: #D0611E;
+    }
+    .rating{
+      width: 100%;
+      display: flex;
+    }
+    .rating > i {
+      color: yellow;
+    }
+    .rating > .rate{
+      font-size: 1.2rem;
+      padding-left: 1.5rem;
+    }
+    .quantity{
+      display: flex;
+    }
+    .quantity > i{
+height: 1rem;
+background-color: whitesmoke;
+padding: 1rem;
+width: 1rem;
+    }
+    .quantity > .numQuantity{
+      font-size: 2rem;
+      height: 1rem;
+      width: 1rem;
+      text-align: center;
+      padding: 0.7rem;
+    }
